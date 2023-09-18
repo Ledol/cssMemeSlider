@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Meme Slider</title>
+    <link rel="stylesheet" href="./normalize.css" type="text/css">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <meta
+            name="viewport"
+            content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=2"
+    />
+</head>
+<body>
+<div class="wrapper">
+
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide s1">
+                    <img src="./assets/mem1.jpg" alt="mem">
+                </div>
+                <div class="slide s2">
+                    <img src="./assets/mem2.jpg" alt="mem">
+                </div>
+                <div class="slide s3">
+                    <img src="./assets/mem3.jpg" alt="mem">
+                </div>
+                <div class="slide s4">
+                    <img src="./assets/mem4.jpg" alt="mem">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls-container">
+
+        <div class="description-container">
+            <div class="descriptions">
+                <div class="inner">
+                    <div class="description d1">
+                        <div class="text">
+                            <p>I'll find you!</p>
+                        </div>
+                    </div>
+                    <div class="description d2">
+                        <div class="text">
+                            <p>Mood after 2019.</p>
+                        </div>
+                    </div>
+                    <div class="description d3">
+                        <div class="text">
+                            <p>Work and travel.</p>
+                        </div>
+                    </div>
+                    <div class="description d4">
+                        <div class="text">
+                            <p>First salary.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+    </div>
+</div>
+</body>
+</html>
